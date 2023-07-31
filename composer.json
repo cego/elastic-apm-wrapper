@@ -1,0 +1,24 @@
+{
+    "name": "cego/elastic-apm-wrapper",
+    "description": "Adds easy-to-use Apm methods to wrap code in spans.",
+    "type": "library",
+    "require-dev": {
+        "cego/php-cs-fixer": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cego\\ElasticApmWrapper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lau Josefsen",
+            "email": "lejo@cego.dk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-elastic_apm": "*",
+        "php": "^7.4 || ^8.0"
+    }
+}
