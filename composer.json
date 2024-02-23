@@ -3,7 +3,8 @@
     "description": "Adds easy-to-use Apm methods to wrap code in spans.",
     "type": "library",
     "require-dev": {
-        "cego/php-cs-fixer": "^1.0"
+        "cego/php-cs-fixer": "^1.0",
+        "ext-elastic_apm": "*"
     },
     "autoload": {
         "psr-4": {
@@ -17,8 +18,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {
-        "ext-elastic_apm": "*",
+    "require": {        
         "php": "^7.4 || ^8.0"
     }
 }
